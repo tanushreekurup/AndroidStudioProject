@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cities"
+    android:background="@drawable/med2"
+    >
+
+    <EditText
+        android:id="@+id/txtsearch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search city"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#F3F0F0">
+
+    </ListView>
+
+
+</LinearLayout>
